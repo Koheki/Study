@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "study"
+version = "0.1.0"
+description = ""
+authors = ["Koheki <mita19941224@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.2.9"
+matplotlib = "^3.5.1"
+nb-mermaid = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
